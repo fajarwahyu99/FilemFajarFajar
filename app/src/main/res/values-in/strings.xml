@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Cari Film Basis</string>
+
+    <string name="navigation_drawer_open">Buka laci navigasi</string>
+    <string name="navigation_drawer_close">Tutup laci navigasi</string>
+
+    <string name="action_settings">Pengaturan</string>
+    <string name="title_activity_detail_movie">Detail Catoluge Movie</string>
+
+    <string name="message_error_load">Hasil tidak ada!\nSilahkan cek koneksi anda!</string>
+    <string name="message_error_empty_field">Bidang tidak boleh kosong</string>
+    <string name="message_error_snackbar">Ganti dengan tindakanmu sendiri</string>
+    <string name="overview">Menyusul peristiwa Age of Ultron, pemerintah kolektif di dunia melewatkan sebuah
+        tindakan yang dirancang untuk mengatur semua aktivitas manusia super. Pendapat polarisasi ini antara Avengers,
+        menyebabkan dua faksi berpihak dengan Iron Man atau Captain America, yang menyebabkan pertempuran epik antara mantan sekutu.</string>
+
+    <!--NavigationDrawer Title-->
+    <string name="nav_title_search_movie">Pencarian</string>
+    <string name="nav_title_home">Rumah</string>
+    <string name="nav_title_favorite">Favorit</string>
+    <string name="nav_title_now_playing">Sedang Dimainkan</string>
+    <string name="nav_title_up_coming">Movie Mendatang</string>
+    <string name="nav_title_settings">Pengaturan</string>
+    <string name="nav_title_communicate">Komunikasi</string>
+    <string name="nav_title_share">Bagikan</string>
+    <string name="nav_title_send">Kirim</string>
+
+    <string name="detail_title_image">Judul Gambar</string>
+    <string name="edt_hint_search_movie">Cari Movie Disini&#8230;</string>
+
+    <string name="btn_detail">Detail</string>
+    <string name="btn_share">Bagikan</string>
+    <string name="btn_search">Cari</string>
+
+    <string name="tv_overview">Ikhtisar</string>
+    <string name="tv_release_date">Tanggal rilis</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Rumah</item>
+        <item>Pencarian</item>
+        <item>Favorit</item>
+    </string-array>
+
+    <string name="title_activity_setting">Pengaturan</string>
+    <string name="tv_setting_notification">Pemberitahuan</string>
+    <string name="tv_setting_daily_reminder_notification">Pemberitahuan Pengingat Harian</string>
+    <string name="tv_setting_turn_on_off_daily_reminder">Mengaktifkan / menonaktifkan pengingat harian</string>
+    <string name="tv_setting_upcoming_reminder_notification">Pemberitahuan Pengingat yang akan datang</string>
+    <string name="tv_setting_turn_on_off_upcoming_reminder">Hidupkan / nonaktifkan pengingat yang akan datang</string>
+    <string name="tv_setting_settings">Pengaturan</string>
+    <string name="tv_setting_locale">Pengaturan Lokal</string>
+    <string name="tv_setting_change_your_phone_localization">Ubah lokalisasi telepon Anda</string>
+    <string name="message_setup_upcoming">Tugas Mendatang disiapkan</string>
+    <string name="message_cancel_upcoming">Tugas Mendatang dibatalkan</string>
+    <string name="message_setup_daily">Pengingat Harian disiapkan</string>
+    <string name="message_cancel_daily">Pengingat Harian dibatalkan</string>
+    <string name="message_notif_daily">Katalog Film merindukanmu&#8230;</string>
+</resources>

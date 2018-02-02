@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="example.fajar.dicoding.cataloguemoviebasisdata.DetailMovieActivity"
+    tools:showIn="@layout/activity_detail_movie">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/ProgressStyle"/>
+
+    <TextView
+        android:id="@+id/tv_not_found"
+        style="@style/TextError"
+        tools:text="Error Load Data"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_poster"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/detail_title_image"
+                tools:src="@drawable/captain"/>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_title"
+                android:layout_toRightOf="@id/img_poster"
+                style="@style/CardViewStyle"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/normal_margin">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    style="@style/TextContentDetail.Title"
+                    tools:text="Captain America: Civil War" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_overview"
+                android:layout_below="@id/img_poster"
+                style="@style/CardViewStyle"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextContentDetail"
+                        android:text="@string/tv_overview"/>
+
+                    <TextView
+                        android:id="@+id/tv_overview"
+                        style="@style/TextContentDetail.Desc"
+                        tools:text="@string/overview" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_release"
+                android:layout_toRightOf="@id/img_poster"
+                android:layout_below="@id/card_title"
+                style="@style/CardViewStyle"
+                android:layout_marginBottom="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/TextContentDetail"
+                        android:text="@string/tv_release_date"/>
+
+                    <TextView
+                        android:id="@+id/tv_release_date"
+                        style="@style/TextContentDetail.Desc"
+                        tools:text="2016-04-27" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+</RelativeLayout>
+

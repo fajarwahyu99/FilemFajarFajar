@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    style="@style/CardViewStyle.List"
+    card_view:cardCornerRadius="@dimen/small_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="@dimen/normal_margin">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            tools:src="@drawable/captain"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            style="@style/TextContent.List"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end"
+            tools:text="Name"
+            android:layout_toRightOf="@id/img_item_photo"/>
+        <TextView
+            android:id="@+id/tv_overview"
+            style="@style/TextContent.List"
+            tools:text="@string/overview"
+            android:maxLines="3"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:layout_below="@id/tv_item_name"/>
+
+        <TextView
+            android:id="@+id/tv_release"
+            style="@style/TextContent.List"
+            tools:text="Wednesday, Nov, 24, 2016"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:layout_below="@id/tv_overview"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/img_item_photo"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_detail"
+                android:layout_weight="1"
+                android:text="@string/btn_detail"
+                style="@style/ButtonItems"/>
+
+            <Button
+                android:id="@+id/btn_share"
+                android:layout_weight="1"
+                android:text="@string/btn_share"
+                style="@style/ButtonItems"/>
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

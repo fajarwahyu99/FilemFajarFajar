@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FavoriteMovie</string>
+    <string name="overview">Following the events of Age of Ultron, the collective governments of the world pass an         act designed to regulate all superhuman activity. This polarizes opinion amongst the Avengers,</string>
+    <string name="dialog_message_delete">Apakah anda yakin mengapus item favorite ini?</string>
+    <string name="dialog_title_delete">Hapus Favorite</string>
+    <string name="dialog_positive_btn">Ya</string>
+    <string name="dialog_negative_btn">Tidak</string>
+    <string name="toast_deleted_msg">Satu Item berhasil dihapus</string>
+    <string name="title_detail_activity">Detail Favorite Movie</string>
+    <string name="title_activity_main">Favorite Movie</string>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.fajar.dicoding.cataloguemoviebasisdata">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <permission
+        android:name="example.fajar.dicoding.cataloguemoviebasisdata.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="example.fajar.dicoding.cataloguemoviebasisdata.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="example.fajar.dicoding.cataloguemoviebasisdata.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="example.fajar.dicoding.cataloguemoviebasisdata.DetailMovieActivity"
+            android:label="@string/title_activity_detail_movie"
+            android:parentActivityName="example.fajar.dicoding.cataloguemoviebasisdata.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="example.fajar.dicoding.cataloguemoviebasisdata.MainActivity" />
+        </activity>
+
+        <receiver
+            android:name="example.fajar.dicoding.cataloguemoviebasisdata.service.DailyReminderMovie"
+            android:enabled="true"
+            android:exported="true" />
+
+        <provider
+            android:name="example.fajar.dicoding.cataloguemoviebasisdata.provider.MovieProvider"
+            android:authorities="movie.basisdata"
+            android:exported="true"
+            android:readPermission="id.co.qodr.cataloguemoviebasisdata.READ_DATABASE"
+            android:writePermission="id.co.qodr.cataloguemoviebasisdata.WRITE_DATABASE" />
+
+        <service
+            android:name="example.fajar.dicoding.cataloguemoviebasisdata.service.UpComingReminderMovie"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="example.fajar.dicoding.cataloguemoviebasisdata.SettingActivity"
+            android:label="@string/title_activity_setting"
+            android:parentActivityName="example.fajar.dicoding.cataloguemoviebasisdata.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="example.fajar.dicoding.cataloguemoviebasisdata.MainActivity" />
+        </activity>
+
+        <receiver android:name="example.fajar.dicoding.cataloguemoviebasisdata.stackwidget.FavoriteWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/favorite_widget_info" />
+        </receiver>
+
+        <service android:name="example.fajar.dicoding.cataloguemoviebasisdata.stackwidget.StackWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+    </application>
+
+</manifest>

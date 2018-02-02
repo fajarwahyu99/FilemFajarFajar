@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/normal_margin">
+
+    <ImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tv_movie_id"
+        style="@style/TextContent.List"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:visibility="gone"
+        android:layout_toRightOf="@id/img_item_photo"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TextContent.List"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:text="Name"
+        android:layout_toRightOf="@id/img_item_photo"/>
+
+    <TextView
+        android:id="@+id/tv_overview"
+        style="@style/TextContent.List"
+        android:text="@string/overview"
+        android:layout_marginLeft="8dp"
+        android:maxLines="3"
+        android:layout_toRightOf="@id/img_item_photo"
+        android:layout_below="@id/tv_title"/>
+
+    <TextView
+        android:id="@+id/tv_release"
+        style="@style/TextContent.List"
+        tools:text="Wednesday, Nov, 24, 2016"
+        android:layout_marginLeft="8dp"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/img_item_photo"
+        android:layout_below="@id/tv_overview"/>
+</RelativeLayout>

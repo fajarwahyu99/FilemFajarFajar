@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Cari Film Basis</string>
+
+    <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
+    <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_detail_movie">Detalle Catoluge Movie</string>
+
+    <string name="message_error_load">Resultado no encontrado !\nCompruebe su conexión!</string>
+    <string name="message_error_empty_field">El campo no puede estar vacío</string>
+    <string name="message_error_snackbar">Reemplazar con su propia acción</string>
+    <string name="overview">
+Tras los acontecimientos de Age of Ultron, los gobiernos colectivos del mundo pasan un
+        acto diseñado para regular toda la actividad sobrehumana. Esto polariza la opinión entre los Vengadores,
+        haciendo que dos facciones se unan con Iron Man o Captain America, lo que provoca una batalla épica entre antiguos aliados.</string>
+
+    <!--NavigationDrawer Title-->
+    <string name="nav_title_search_movie">Buscar</string>
+    <string name="nav_title_home">Casa</string>
+    <string name="nav_title_favorite">Favorito</string>
+    <string name="nav_title_now_playing">Now Playing</string>
+    <string name="nav_title_up_coming">Jugando ahora</string>
+    <string name="nav_title_settings">Ajustes</string>
+    <string name="nav_title_communicate">Comunicar</string>
+    <string name="nav_title_share">Compartir</string>
+    <string name="nav_title_send">Enviar</string>
+    <string name="detail_title_image">Título de la imagen</string>
+    <string name="edt_hint_search_movie">Buscar película aquí&#8230;</string>
+
+    <string name="btn_detail">Detalle</string>
+    <string name="btn_share">Compartir</string>
+    <string name="btn_search">Buscar</string>
+
+    <string name="tv_overview">Visión de conjunto</string>
+    <string name="tv_release_date">Fecha de lanzamiento</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Casa</item>
+        <item>Buscar</item>
+        <item>Favorito</item>
+    </string-array>
+
+    <string name="title_activity_setting">Ajustes</string>
+    <string name="tv_setting_notification">Notificación</string>
+    <string name="tv_setting_daily_reminder_notification">Notificación de recordatorio diario</string>
+    <string name="tv_setting_turn_on_off_daily_reminder">Activar / desactivar recordatorio diario</string>
+    <string name="tv_setting_upcoming_reminder_notification">Próxima notificación de recordatorio</string>
+    <string name="tv_setting_turn_on_off_upcoming_reminder">Activar / desactivar el próximo recordatorio</string>
+    <string name="tv_setting_settings">Ajustes</string>
+    <string name="tv_setting_locale">Configuración de la configuración regional</string>
+    <string name="tv_setting_change_your_phone_localization">Cambiar la localización del teléfono</string>
+    <string name="message_setup_upcoming">Próxima configuración de tareas</string>
+    <string name="message_cancel_upcoming">Próxima tarea Cancelar</string>
+    <string name="message_setup_daily">Configuración del recordatorio diario</string>
+    <string name="message_cancel_daily">Recordatorio diario cancelar</string>
+    <string name="message_notif_daily">Catálogo La película te falta&#8230;</string>
+</resources>
