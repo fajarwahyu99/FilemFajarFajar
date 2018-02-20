@@ -14,9 +14,7 @@ import android.util.Log;
 
 import example.fajar.dicoding.cataloguemoviebasisdata.db.DatabaseHelper;
 
-/**
- * Created by adul on 26/09/17.
- */
+
 
 public class MovieProvider extends ContentProvider {
 

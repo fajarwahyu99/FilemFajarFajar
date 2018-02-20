@@ -5,9 +5,7 @@ import android.os.Parcelable;
 
 import org.json.JSONObject;
 
-/**
- * Created by adul on 16/09/17.
- */
+
 
 public class MovieItems implements Parcelable {
 

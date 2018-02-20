@@ -16,9 +16,7 @@ import cz.msebera.android.httpclient.Header;
 import example.fajar.dicoding.cataloguemoviebasisdata.BuildConfig;
 import example.fajar.dicoding.cataloguemoviebasisdata.model.MovieItems;
 
-/**
- * Created by adul on 16/09/17.
- */
+
 
 public class UpcomingLoader extends AsyncTaskLoader<ArrayList<MovieItems>> {
 

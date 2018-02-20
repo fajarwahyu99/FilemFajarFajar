@@ -16,8 +16,8 @@ import example.fajar.dicoding.cataloguemoviebasisdata.R;
  */
 public class FavoriteWidget extends AppWidgetProvider {
 
-    public static final String TOAST_ACTION = "dev.fahmi.TOAST_ACTION";
-    public static final String EXTRA_ITEM = "dev.fahmi.EXTRA_ITEM";
+    public static final String TOAST_ACTION = "dev.fajar.TOAST_ACTION";
+    public static final String EXTRA_ITEM = "dev.fajar.EXTRA_ITEM";
 
     static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
                                 int appWidgetId) {

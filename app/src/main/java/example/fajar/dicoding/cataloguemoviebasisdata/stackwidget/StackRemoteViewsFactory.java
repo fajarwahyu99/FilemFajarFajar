@@ -22,9 +22,7 @@ import example.fajar.dicoding.cataloguemoviebasisdata.R;
 import example.fajar.dicoding.cataloguemoviebasisdata.db.MovieHelper;
 import example.fajar.dicoding.cataloguemoviebasisdata.model.MovieItems;
 
-/**
- * Created by adul on 04/10/17.
- */
+
 
 public class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
 

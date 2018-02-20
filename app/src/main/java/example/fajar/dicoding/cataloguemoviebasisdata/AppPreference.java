@@ -3,9 +3,7 @@ package example.fajar.dicoding.cataloguemoviebasisdata;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by adul on 29/09/17.
- */
+
 
 public class AppPreference {
     private String KEY_UPCOMING = "upcoming";

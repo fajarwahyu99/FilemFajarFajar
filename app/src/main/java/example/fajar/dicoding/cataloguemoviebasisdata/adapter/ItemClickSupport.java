@@ -5,9 +5,7 @@ import android.view.View;
 
 import example.fajar.dicoding.cataloguemoviebasisdata.R;
 
-/**
- * Created by adul on 14/09/17.
- */
+
 
 public class ItemClickSupport {
     private RecyclerView mRecyclerView;

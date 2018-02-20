@@ -2,9 +2,7 @@ package example.fajar.dicoding.cataloguemoviebasisdata.adapter;
 
 import android.view.View;
 
-/**
- * Created by adul on 14/09/17.
- */
+
 
 public class CustomOnItemClickListener implements View.OnClickListener {
 

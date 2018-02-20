@@ -21,9 +21,7 @@ import example.fajar.dicoding.cataloguemoviebasisdata.DetailMovieActivity;
 import example.fajar.dicoding.cataloguemoviebasisdata.R;
 import example.fajar.dicoding.cataloguemoviebasisdata.model.MovieItems;
 
-/**
- * Created by adul on 16/09/17.
- */
+
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHolder> {
 

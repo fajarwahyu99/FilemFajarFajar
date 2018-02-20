@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("id.co.qodr.cataloguemovieuiux", appContext.getPackageName());
+        assertEquals("example.fajar.dicoding.cataloguemoviebasisdata", appContext.getPackageName());
     }
 }

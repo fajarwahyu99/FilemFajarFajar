@@ -18,9 +18,6 @@ import java.util.Calendar;
 import example.fajar.dicoding.cataloguemoviebasisdata.MainActivity;
 import example.fajar.dicoding.cataloguemoviebasisdata.R;
 
-/**
- * Created by adul on 17/09/17.
- */
 
 public class DailyReminderMovie extends BroadcastReceiver {
 

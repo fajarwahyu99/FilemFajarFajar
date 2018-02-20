@@ -7,9 +7,7 @@ import com.google.android.gms.gcm.GcmNetworkManager;
 import com.google.android.gms.gcm.PeriodicTask;
 import com.google.android.gms.gcm.Task;
 
-/**
- * Created by adul on 17/09/17.
- */
+
 
 public class UpComingTask {
 

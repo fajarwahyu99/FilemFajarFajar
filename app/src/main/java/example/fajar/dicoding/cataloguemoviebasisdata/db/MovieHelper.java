@@ -11,9 +11,6 @@ import java.util.ArrayList;
 
 import example.fajar.dicoding.cataloguemoviebasisdata.model.MovieItems;
 
-/**
- * Created by adul on 26/09/17.
- */
 
 public class MovieHelper {
 

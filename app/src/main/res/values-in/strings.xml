@@ -54,5 +54,5 @@
     <string name="message_cancel_upcoming">Tugas Mendatang dibatalkan</string>
     <string name="message_setup_daily">Pengingat Harian disiapkan</string>
     <string name="message_cancel_daily">Pengingat Harian dibatalkan</string>
-    <string name="message_notif_daily">Katalog Film merindukanmu&#8230;</string>
+    <string name="message_notif_daily">Cari Film Sangat Merindukanmu&#8230;</string>
 </resources>

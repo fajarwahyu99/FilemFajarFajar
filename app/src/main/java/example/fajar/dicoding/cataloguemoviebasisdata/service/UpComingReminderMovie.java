@@ -28,9 +28,7 @@ import example.fajar.dicoding.cataloguemoviebasisdata.DetailMovieActivity;
 import example.fajar.dicoding.cataloguemoviebasisdata.R;
 import example.fajar.dicoding.cataloguemoviebasisdata.model.MovieItems;
 
-/**
- * Created by adul on 17/09/17.
- */
+
 
 public class UpComingReminderMovie extends GcmTaskService {
 

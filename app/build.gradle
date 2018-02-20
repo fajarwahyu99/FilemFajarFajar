@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    compileSdkVersion 24
+    buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "id.co.qodr.cataloguemoviebasisdata"
-        minSdkVersion 16
-        targetSdkVersion 26
+        applicationId "example.fajar.dicoding.cataloguemoviebasisdata"
+        minSdkVersion 15
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -17,7 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         buildTypes.each {
-            it.buildConfigField 'String', 'API_KEY_MOVIE', '"0e2f6d2c0a5e742d13604a28e431c2e0"'
+            it.buildConfigField 'String', 'API_KEY_MOVIE', '"92fc8095e11194d676367347621d94c0"'
             it.buildConfigField 'String', 'BASE_URL_POSTER', '"http://image.tmdb.org/t/p/w185"'
         }
     }
